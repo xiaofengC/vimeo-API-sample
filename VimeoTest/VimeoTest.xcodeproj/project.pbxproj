@@ -1,0 +1,572 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		189CE3E98DFBF62CDE046547 /* libPods-VimeoTest.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 412D291A44A311F585137E33 /* libPods-VimeoTest.a */; };
+		D06FE1CD1A351B0F00DE807E /* VideoData.m in Sources */ = {isa = PBXBuildFile; fileRef = D06FE1CC1A351B0F00DE807E /* VideoData.m */; };
+		D06FE1D21A352F5D00DE807E /* placeholder.png in Resources */ = {isa = PBXBuildFile; fileRef = D06FE1D11A352F5D00DE807E /* placeholder.png */; };
+		D08536F21A33D46A00DA34C1 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = D08536F11A33D46A00DA34C1 /* main.m */; };
+		D08536F51A33D46A00DA34C1 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = D08536F41A33D46A00DA34C1 /* AppDelegate.m */; };
+		D08536F81A33D46A00DA34C1 /* VideoFeedsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D08536F71A33D46A00DA34C1 /* VideoFeedsViewController.m */; };
+		D08536FB1A33D46A00DA34C1 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D08536F91A33D46A00DA34C1 /* Main.storyboard */; };
+		D08536FD1A33D46A00DA34C1 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D08536FC1A33D46A00DA34C1 /* Images.xcassets */; };
+		D08537001A33D46A00DA34C1 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = D08536FE1A33D46A00DA34C1 /* LaunchScreen.xib */; };
+		D085370C1A33D46A00DA34C1 /* VimeoTestTests.m in Sources */ = {isa = PBXBuildFile; fileRef = D085370B1A33D46A00DA34C1 /* VimeoTestTests.m */; };
+		D08537171A33D85800DA34C1 /* VMAPIClient.m in Sources */ = {isa = PBXBuildFile; fileRef = D08537161A33D85800DA34C1 /* VMAPIClient.m */; };
+		D0A69C081A37D11700C96C19 /* UIFont+VMFont.m in Sources */ = {isa = PBXBuildFile; fileRef = D0A69C071A37D11700C96C19 /* UIFont+VMFont.m */; };
+		D0A69C0F1A37E4DD00C96C19 /* ThumbNail.m in Sources */ = {isa = PBXBuildFile; fileRef = D0A69C0E1A37E4DD00C96C19 /* ThumbNail.m */; };
+		D0C9684D1A360D98003754C0 /* VideoTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = D0C9684C1A360D98003754C0 /* VideoTableViewCell.m */; };
+		D0E97CA31A37ED0E008D7AB5 /* UIColor+VMColor.m in Sources */ = {isa = PBXBuildFile; fileRef = D0E97CA21A37ED0E008D7AB5 /* UIColor+VMColor.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		D08537061A33D46A00DA34C1 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D08536E41A33D46A00DA34C1 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D08536EB1A33D46A00DA34C1;
+			remoteInfo = VimeoTest;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		116B3A9D37C23EF6298C645A /* Pods-VimeoTest.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-VimeoTest.debug.xcconfig"; path = "Pods/Target Support Files/Pods-VimeoTest/Pods-VimeoTest.debug.xcconfig"; sourceTree = "<group>"; };
+		412D291A44A311F585137E33 /* libPods-VimeoTest.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-VimeoTest.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		92F185CD98B47403E795DF3E /* Pods-VimeoTest.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-VimeoTest.release.xcconfig"; path = "Pods/Target Support Files/Pods-VimeoTest/Pods-VimeoTest.release.xcconfig"; sourceTree = "<group>"; };
+		D06FE1CB1A351B0F00DE807E /* VideoData.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = VideoData.h; sourceTree = "<group>"; };
+		D06FE1CC1A351B0F00DE807E /* VideoData.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = VideoData.m; sourceTree = "<group>"; };
+		D06FE1D11A352F5D00DE807E /* placeholder.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = placeholder.png; sourceTree = "<group>"; };
+		D08536EC1A33D46A00DA34C1 /* VimeoTest.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = VimeoTest.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		D08536F01A33D46A00DA34C1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D08536F11A33D46A00DA34C1 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		D08536F31A33D46A00DA34C1 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		D08536F41A33D46A00DA34C1 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		D08536F61A33D46A00DA34C1 /* VideoFeedsViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = VideoFeedsViewController.h; sourceTree = "<group>"; };
+		D08536F71A33D46A00DA34C1 /* VideoFeedsViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = VideoFeedsViewController.m; sourceTree = "<group>"; };
+		D08536FA1A33D46A00DA34C1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		D08536FC1A33D46A00DA34C1 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		D08536FF1A33D46A00DA34C1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		D08537051A33D46A00DA34C1 /* VimeoTestTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = VimeoTestTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		D085370A1A33D46A00DA34C1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D085370B1A33D46A00DA34C1 /* VimeoTestTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = VimeoTestTests.m; sourceTree = "<group>"; };
+		D08537151A33D85800DA34C1 /* VMAPIClient.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = VMAPIClient.h; sourceTree = "<group>"; };
+		D08537161A33D85800DA34C1 /* VMAPIClient.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = VMAPIClient.m; sourceTree = "<group>"; };
+		D0A69C061A37D11700C96C19 /* UIFont+VMFont.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIFont+VMFont.h"; sourceTree = "<group>"; };
+		D0A69C071A37D11700C96C19 /* UIFont+VMFont.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIFont+VMFont.m"; sourceTree = "<group>"; };
+		D0A69C0D1A37E4DD00C96C19 /* ThumbNail.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ThumbNail.h; sourceTree = "<group>"; };
+		D0A69C0E1A37E4DD00C96C19 /* ThumbNail.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ThumbNail.m; sourceTree = "<group>"; };
+		D0C9684B1A360D98003754C0 /* VideoTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = VideoTableViewCell.h; sourceTree = "<group>"; };
+		D0C9684C1A360D98003754C0 /* VideoTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = VideoTableViewCell.m; sourceTree = "<group>"; };
+		D0E97CA11A37ED0E008D7AB5 /* UIColor+VMColor.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIColor+VMColor.h"; sourceTree = "<group>"; };
+		D0E97CA21A37ED0E008D7AB5 /* UIColor+VMColor.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIColor+VMColor.m"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		D08536E91A33D46A00DA34C1 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				189CE3E98DFBF62CDE046547 /* libPods-VimeoTest.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D08537021A33D46A00DA34C1 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		44352F19ED2C287B57CCE96C /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				412D291A44A311F585137E33 /* libPods-VimeoTest.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		8420C43E5175D5A41DE2A72E /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				116B3A9D37C23EF6298C645A /* Pods-VimeoTest.debug.xcconfig */,
+				92F185CD98B47403E795DF3E /* Pods-VimeoTest.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		D08536E31A33D46A00DA34C1 = {
+			isa = PBXGroup;
+			children = (
+				D08536EE1A33D46A00DA34C1 /* VimeoTest */,
+				D08537081A33D46A00DA34C1 /* VimeoTestTests */,
+				D08536ED1A33D46A00DA34C1 /* Products */,
+				8420C43E5175D5A41DE2A72E /* Pods */,
+				44352F19ED2C287B57CCE96C /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		D08536ED1A33D46A00DA34C1 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				D08536EC1A33D46A00DA34C1 /* VimeoTest.app */,
+				D08537051A33D46A00DA34C1 /* VimeoTestTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		D08536EE1A33D46A00DA34C1 /* VimeoTest */ = {
+			isa = PBXGroup;
+			children = (
+				D08536F31A33D46A00DA34C1 /* AppDelegate.h */,
+				D08536F41A33D46A00DA34C1 /* AppDelegate.m */,
+				D0A69C011A37CA0C00C96C19 /* ViewControllers */,
+				D0A69C001A37C9F300C96C19 /* CustomCells */,
+				D0A69BFE1A37C9CD00C96C19 /* Models */,
+				D0A69BFD1A37C9B400C96C19 /* Networking */,
+				D0A69C021A37CC2800C96C19 /* Category */,
+				D08536F91A33D46A00DA34C1 /* Main.storyboard */,
+				D08536FC1A33D46A00DA34C1 /* Images.xcassets */,
+				D08536FE1A33D46A00DA34C1 /* LaunchScreen.xib */,
+				D08536EF1A33D46A00DA34C1 /* Supporting Files */,
+			);
+			path = VimeoTest;
+			sourceTree = "<group>";
+		};
+		D08536EF1A33D46A00DA34C1 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				D06FE1D11A352F5D00DE807E /* placeholder.png */,
+				D08536F01A33D46A00DA34C1 /* Info.plist */,
+				D08536F11A33D46A00DA34C1 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		D08537081A33D46A00DA34C1 /* VimeoTestTests */ = {
+			isa = PBXGroup;
+			children = (
+				D085370B1A33D46A00DA34C1 /* VimeoTestTests.m */,
+				D08537091A33D46A00DA34C1 /* Supporting Files */,
+			);
+			path = VimeoTestTests;
+			sourceTree = "<group>";
+		};
+		D08537091A33D46A00DA34C1 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				D085370A1A33D46A00DA34C1 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		D0A69BFD1A37C9B400C96C19 /* Networking */ = {
+			isa = PBXGroup;
+			children = (
+				D08537151A33D85800DA34C1 /* VMAPIClient.h */,
+				D08537161A33D85800DA34C1 /* VMAPIClient.m */,
+			);
+			name = Networking;
+			sourceTree = "<group>";
+		};
+		D0A69BFE1A37C9CD00C96C19 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				D06FE1CB1A351B0F00DE807E /* VideoData.h */,
+				D06FE1CC1A351B0F00DE807E /* VideoData.m */,
+				D0A69C0D1A37E4DD00C96C19 /* ThumbNail.h */,
+				D0A69C0E1A37E4DD00C96C19 /* ThumbNail.m */,
+			);
+			name = Models;
+			sourceTree = "<group>";
+		};
+		D0A69C001A37C9F300C96C19 /* CustomCells */ = {
+			isa = PBXGroup;
+			children = (
+				D0C9684B1A360D98003754C0 /* VideoTableViewCell.h */,
+				D0C9684C1A360D98003754C0 /* VideoTableViewCell.m */,
+			);
+			name = CustomCells;
+			sourceTree = "<group>";
+		};
+		D0A69C011A37CA0C00C96C19 /* ViewControllers */ = {
+			isa = PBXGroup;
+			children = (
+				D08536F61A33D46A00DA34C1 /* VideoFeedsViewController.h */,
+				D08536F71A33D46A00DA34C1 /* VideoFeedsViewController.m */,
+			);
+			name = ViewControllers;
+			sourceTree = "<group>";
+		};
+		D0A69C021A37CC2800C96C19 /* Category */ = {
+			isa = PBXGroup;
+			children = (
+				D0A69C061A37D11700C96C19 /* UIFont+VMFont.h */,
+				D0A69C071A37D11700C96C19 /* UIFont+VMFont.m */,
+				D0E97CA11A37ED0E008D7AB5 /* UIColor+VMColor.h */,
+				D0E97CA21A37ED0E008D7AB5 /* UIColor+VMColor.m */,
+			);
+			name = Category;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		D08536EB1A33D46A00DA34C1 /* VimeoTest */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D085370F1A33D46A00DA34C1 /* Build configuration list for PBXNativeTarget "VimeoTest" */;
+			buildPhases = (
+				33A1FC47ECFF5F15151F64B7 /* Check Pods Manifest.lock */,
+				D08536E81A33D46A00DA34C1 /* Sources */,
+				D08536E91A33D46A00DA34C1 /* Frameworks */,
+				D08536EA1A33D46A00DA34C1 /* Resources */,
+				4A503A3A3FAB961CB7C30AA4 /* Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = VimeoTest;
+			productName = VimeoTest;
+			productReference = D08536EC1A33D46A00DA34C1 /* VimeoTest.app */;
+			productType = "com.apple.product-type.application";
+		};
+		D08537041A33D46A00DA34C1 /* VimeoTestTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D08537121A33D46A00DA34C1 /* Build configuration list for PBXNativeTarget "VimeoTestTests" */;
+			buildPhases = (
+				D08537011A33D46A00DA34C1 /* Sources */,
+				D08537021A33D46A00DA34C1 /* Frameworks */,
+				D08537031A33D46A00DA34C1 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				D08537071A33D46A00DA34C1 /* PBXTargetDependency */,
+			);
+			name = VimeoTestTests;
+			productName = VimeoTestTests;
+			productReference = D08537051A33D46A00DA34C1 /* VimeoTestTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D08536E41A33D46A00DA34C1 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0610;
+				ORGANIZATIONNAME = "Xiaofeng Chen";
+				TargetAttributes = {
+					D08536EB1A33D46A00DA34C1 = {
+						CreatedOnToolsVersion = 6.1;
+					};
+					D08537041A33D46A00DA34C1 = {
+						CreatedOnToolsVersion = 6.1;
+						TestTargetID = D08536EB1A33D46A00DA34C1;
+					};
+				};
+			};
+			buildConfigurationList = D08536E71A33D46A00DA34C1 /* Build configuration list for PBXProject "VimeoTest" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = D08536E31A33D46A00DA34C1;
+			productRefGroup = D08536ED1A33D46A00DA34C1 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				D08536EB1A33D46A00DA34C1 /* VimeoTest */,
+				D08537041A33D46A00DA34C1 /* VimeoTestTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		D08536EA1A33D46A00DA34C1 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D08536FB1A33D46A00DA34C1 /* Main.storyboard in Resources */,
+				D06FE1D21A352F5D00DE807E /* placeholder.png in Resources */,
+				D08537001A33D46A00DA34C1 /* LaunchScreen.xib in Resources */,
+				D08536FD1A33D46A00DA34C1 /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D08537031A33D46A00DA34C1 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		33A1FC47ECFF5F15151F64B7 /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		4A503A3A3FAB961CB7C30AA4 /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-VimeoTest/Pods-VimeoTest-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		D08536E81A33D46A00DA34C1 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D0C9684D1A360D98003754C0 /* VideoTableViewCell.m in Sources */,
+				D08537171A33D85800DA34C1 /* VMAPIClient.m in Sources */,
+				D0A69C081A37D11700C96C19 /* UIFont+VMFont.m in Sources */,
+				D08536F81A33D46A00DA34C1 /* VideoFeedsViewController.m in Sources */,
+				D0A69C0F1A37E4DD00C96C19 /* ThumbNail.m in Sources */,
+				D08536F51A33D46A00DA34C1 /* AppDelegate.m in Sources */,
+				D0E97CA31A37ED0E008D7AB5 /* UIColor+VMColor.m in Sources */,
+				D06FE1CD1A351B0F00DE807E /* VideoData.m in Sources */,
+				D08536F21A33D46A00DA34C1 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D08537011A33D46A00DA34C1 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D085370C1A33D46A00DA34C1 /* VimeoTestTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		D08537071A33D46A00DA34C1 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = D08536EB1A33D46A00DA34C1 /* VimeoTest */;
+			targetProxy = D08537061A33D46A00DA34C1 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		D08536F91A33D46A00DA34C1 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D08536FA1A33D46A00DA34C1 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		D08536FE1A33D46A00DA34C1 /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D08536FF1A33D46A00DA34C1 /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		D085370D1A33D46A00DA34C1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		D085370E1A33D46A00DA34C1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		D08537101A33D46A00DA34C1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 116B3A9D37C23EF6298C645A /* Pods-VimeoTest.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = VimeoTest/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		D08537111A33D46A00DA34C1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 92F185CD98B47403E795DF3E /* Pods-VimeoTest.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = VimeoTest/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		D08537131A33D46A00DA34C1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = VimeoTestTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/VimeoTest.app/VimeoTest";
+			};
+			name = Debug;
+		};
+		D08537141A33D46A00DA34C1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = VimeoTestTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/VimeoTest.app/VimeoTest";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		D08536E71A33D46A00DA34C1 /* Build configuration list for PBXProject "VimeoTest" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D085370D1A33D46A00DA34C1 /* Debug */,
+				D085370E1A33D46A00DA34C1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D085370F1A33D46A00DA34C1 /* Build configuration list for PBXNativeTarget "VimeoTest" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D08537101A33D46A00DA34C1 /* Debug */,
+				D08537111A33D46A00DA34C1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D08537121A33D46A00DA34C1 /* Build configuration list for PBXNativeTarget "VimeoTestTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D08537131A33D46A00DA34C1 /* Debug */,
+				D08537141A33D46A00DA34C1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D08536E41A33D46A00DA34C1 /* Project object */;
+}
